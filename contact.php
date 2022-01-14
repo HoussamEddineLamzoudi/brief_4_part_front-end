@@ -44,16 +44,19 @@
                 <div class="inputs">
                     <label for="">Email</label><br>
                     <input type="text" placeholder="Enter your email" id="email">
+                    
                 </div>
                 <div class="inputs">
                     <label for="">Password</label><br>
-                    <input type="password" placeholder="Enter your password" name="password" >
+                    <input type="password" placeholder="Enter your password" name="password" id="pass">
+                    <div class="msg"></div>
                 </div>
                 <a href="#">Froget passwod?</a>
                 <input type="submit" value="Login" class="submit">
             </div>
         </div>
     </div>
-    <script src="indexJS.js"></script>
+    <!-- <script src="indexJS.js"></script> -->
+    <script src="regex_con1.js"></script>
 </body>
 </html>
